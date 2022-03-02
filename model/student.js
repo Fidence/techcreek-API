@@ -6,15 +6,39 @@ const studentsschema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    middleName: {
+      type: String,
+      required: true,
+    },
     lastName: {
       type: String,
       required: true,
     },
-    phoneNumber: {
+    dateofBirth: {
+      type: String,
+      required: true,
+    },
+    education: {
+      type: String,
+      // required: true,
+    },
+    gender: {
+      type: String,
+      required: true,
+    },
+    stateoforigin: {
+      type: String,
+      required: true,
+    },
+    lga: {
       type: String,
       required: true,
     },
     email: {
+      type: String,
+      required: true,
+    },
+    phoneNumber: {
       type: String,
       required: true,
     },
